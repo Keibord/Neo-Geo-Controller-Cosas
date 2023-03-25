@@ -76,7 +76,7 @@ placement */
 quandrants on the xbox controller. That's note what it's called on the
 PS3 controller but it'd be pointless for me to change the HTML for 
 something as pedantic as a name. */
-/*.custom .quadrant{
+.custom .quadrant{
     position: absolute;
     background: url(ps3-assets/player-n.png);
     height: 17px;
@@ -87,7 +87,7 @@ something as pedantic as a name. */
 /* Since the player indicator is just a CSS sprite, we change the 
 position of the background to match the player number.
 NOTE: Player orderin starts at 0, so p0 = Player 1 */
-/*.custom .p0{
+.custom .p0{
     background-position: 0 -6px;
 }
 .custom .p1{
