@@ -1,0 +1,149 @@
+/*This class defines the base attributes of the skin*/
+.controller.custom{ /*base controller*/
+    background: url(https://github.com/Keibord/Neo-Geo-Controller-Cosas/blob/main/Neo%20Geo%20Base.png); 
+    height: 404px;
+    width: 796px;
+}
+.custom.disconnected { /* This class shows an image when the controller is disconnected */
+    background: url(https://github.com/Keibord/Neo-Geo-Controller-Cosas/blob/main/Neo%20Geo%20Base%20Disconected.png);
+}
+/* This hides the controller's button when disconnected so only the background image remains */ 
+.custom.disconnected div {
+    display: none;
+}
+
+/* This is to size and position the containing div for the 
+start and select buttons. */
+.custom .arrows{
+    position: absolute;
+    width: 76px;
+    height: 145px;
+    top: 160px;
+    left: 385px;
+}
+/* Setting the size and CSS sprite for the start adn select buttons */
+.custom .back, .custom .start{
+    background: url(https://github.com/Keibord/Neo-Geo-Controller-Cosas/blob/main/Boton%20Start%20y%20Select%20Final.png);
+    width: 75px;
+    height: 54px;
+}
+.custom .back.pressed, .custom .start.pressed{
+    background-position-y: -54px;
+    margin-top: 2px;
+}
+.custom .back{
+    float: left;
+    width: 54px;
+}
+.custom .start{
+    float: right;
+    width: 54px;
+    background-position: 53px 0;
+}
+/* Positioning and size of the container for the face buttons */
+.custom .abxy{
+    position: absolute;
+    width: 219px;
+    height: 219px;
+    top: 46px;
+    left: 500px;
+}
+/* base class used to simplify the sprite mapping */
+.custom .button{
+    position: absolute;
+    width:78px;
+    height:78px;
+    background: url(https://github.com/Keibord/Neo-Geo-Controller-Cosas/blob/main/Neo%20Geo%20Buttons.png);
+}
+.custom .button.pressed{
+    background-position-y: -53px;
+    margin-top: 5px;
+}
+.custom .a{
+    background-position: 78px 0;
+    top: 142px;
+    left: 71px;
+}
+.custom .b{
+    background-position: 125px 0;
+    top: 71px;
+    right: 0px;
+}
+.custom .x{
+    background-position: 0 0;
+    top: 71px;
+}
+.custom .y{
+    background-position: -63px 0;
+    left: 71px;
+}
+/* Analog sticks follow the same principles as the triggers in terms of positioning
+Note that the rotation of the sticks in hard coded with javascript, so it applies 
+the CSS inline. */
+.custom .sticks{
+    position: absolute;
+    width: 283px;
+    height: 283px;
+    top: 44px;
+    left: 52px;
+}
+.custom .stick{
+    position: absolute;
+    background: url(https://github.com/Keibord/Neo-Geo-Controller-Cosas/blob/main/DPAD%20NEO%20GEO.png);
+    height:283px;
+    width: 283px;
+}
+.custom .stick.pressed.left{
+    background-position-x: -270px;
+}
+.custom .stick.left{
+    top: 0;
+    left: 0;
+}
+/* Dpad possitioning and sizing */
+/*.custom .dpad{
+    position: absolute;
+    width: 140px;
+    height: 132px;
+    top: 192px;
+    left: 74px;
+}
+.custom .face{
+    background: url(ps3-assets/dpad.png);
+    position: absolute;
+}
+.custom .face.up, .custom .face.down{
+    width: 38px;
+    height: 52px;
+}
+.custom .face.left, .custom .face.right{
+    width: 52px;
+    height: 38px;
+}
+.custom .face.up{
+    left: 50px;
+    top: 0;
+    background-position: 92px 0px;
+}
+.custom .face.down{
+    left: 50px;
+    top: 79px;
+    background-position: 131px 0;
+}
+.custom .face.left{
+    top: 47px;
+    left: 0;
+    background-position: 0px 0;
+}
+.custom .face.right{
+    top: 47px;
+    right: 0px;
+    background-position: 53px 0;
+}
+.custom .face.pressed{
+    margin-top: 5px;
+    background-position-y: 52px;
+/*}
+
+
+/*END PS3 Controller Styling*/
