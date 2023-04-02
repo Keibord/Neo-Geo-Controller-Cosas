@@ -15,27 +15,27 @@
     height: 79px;
     position: absolute;
     left: 889px;
+    top: 90px;
 }
 .custom .trigger{
     width:40px;
     height:79px;
     background: url(https://imgur.com/PZHZMXr.png);
+    opacity: 1;
 }
 .custom .trigger.left{ 
     float: left;
 }
 .custom .trigger.right{
     float: right;
-}
-.custom .trigger.pressed{
-    background-position-y: -79px;
-    margin-top: 5px;
+
 }
 .custom .bumpers{
     width: 82px;
     height: 91px;
     position: absolute;
     left: 529px;
+    top: 460px;
 }
 .custom .bumper{
     width:82px;
@@ -62,10 +62,10 @@
 
 .custom .arrows{
     position: absolute;
-    width: 76px;
-    height: 145px;
-    top: 160px;
-    left: 385px;
+    width: 199px;
+    height: 31px;
+    top: 94px;
+    left: 427px;
 }
 
 .custom .back, .custom .start{
@@ -86,13 +86,13 @@
 
 .custom .start{
     float: right;
-    width: 64px;
-    background-position: 0px 0;
+    width: 68px;
+    background-position: 68px 0;
 }
 
 .custom .abxy {
     position: absolute;
-    width: 652px;
+    width: 326px;
     height: 338px;
     top: 100px;
     left: 545px;
@@ -102,34 +102,35 @@
     position: absolute;
     width:99px;
     height:99px;
-    background: url(https://imgur.com/SMtEjJG.png);
+    background: url(https://imgur.com/DLvVHEl.png);
 }
 
 .custom .button.pressed {
-    background-position-x: -326px;
+    background-position-x: -99px;
     margin-top: 0px;
 }
 
 .custom .a {
-    background-position: 78px 0;
-    top: 142px;
-    left: 71px;
+    background-position-y: 0px;
+    top: 145px;
+    left: 57px;
 }
 
 .custom .b {
-    background-position: 157px 0;
-    top: 71px;
+    background-position-y: 99px;
+    top: 0px;
     right: 0px;
 }
 
 .custom .x {
-    background-position: 0 0;
-    top: 71px;
+    background-position-y: 196px;
+    top: 240px;
 }
 
 .custom .y {
-    background-position: -78px 0;
-    left: 71px;
+    background-position-y: 295px;
+    top: 62px;
+    left: 137px;
 }
 .custom .sticks{
     position: absolute;
