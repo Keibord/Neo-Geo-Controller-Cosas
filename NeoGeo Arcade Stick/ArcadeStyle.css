@@ -1,5 +1,5 @@
 .controller.custom {
-    background: url(NeoGeo Stick Vectorizado BASE.png); 
+    background: url(./NeoGeo Stick Vectorizado BASE.png); 
     height: 727px;
     width: 1060px;
     /*    margin-left: -392px;
@@ -7,7 +7,7 @@
 }
 
 .custom.disconnected {
-    background: url(NeoGeo Stick Desconectado.png);
+    background: url(./NeoGeo Stick Desconectado.png);
 }
 
 .custom .triggers{
@@ -20,8 +20,8 @@
 .custom .trigger{
     width:40px;
     height:79px;
-    background: url(Neo Geo Stick R1 R2.png);
-    opacity: 1;
+    background: url(./Neo Geo Stick R1 R2.png);
+    opacity: 0;
 }
 .custom .trigger.left{ 
     float: left;
@@ -40,7 +40,7 @@
 .custom .bumper{
     width:82px;
     height:37px;
-    background: url(Neo Geo Stick L1 L2.png);
+    background: url(./Neo Geo Stick L1 L2.png);
 }
 .custom .bumper.left{ 
     float: left;
@@ -69,7 +69,7 @@
 }
 
 .custom .back, .custom .start{
-    background: url(Neo Geo Stick Start Select.png);
+    background: url(./Neo Geo Stick Start Select.png);
     width: 199px;
     height: 31px;
 }
@@ -102,7 +102,7 @@
     position: absolute;
     width:99px;
     height:99px;
-    background: url(NeoGeo Stick Boton.png);
+    background: url(./NeoGeo Stick Boton.png);
 }
 
 .custom .button.pressed {
@@ -141,7 +141,7 @@
 }
 .custom .stick{
     position: absolute;
-    background: url(Neo Geo Stick Analogico.png) no-repeat;
+    background: url(./Neo Geo Stick Analogico.png) no-repeat;
     height: 123px;
     width: 123px;
 }
